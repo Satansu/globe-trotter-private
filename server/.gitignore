@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+npm-debug.log
+yarn-error.log
+
+# Environment variables (Do not commit your environment variables)
+.env
+
+# Ignore built files and directories
+/build/
+/dist/
+
+# Coverage reports
+coverage/
+/uploads
+/LOGS
