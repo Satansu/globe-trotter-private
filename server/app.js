@@ -10,7 +10,7 @@ const path = require('path');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: ["http://localhost:3000", "https://globe-trotter-private-ljh03yzx3-satansus-projects.vercel.app"],
+    origin: ["https://globe-trotter-private-ljh03yzx3-satansus-projects.vercel.app"],
     methods: ['POST', 'GET', 'HEAD', 'PUT', 'DELETE'],
     credentials: true
 }))
