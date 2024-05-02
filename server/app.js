@@ -10,7 +10,7 @@ const path = require('path');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: ["https://globe-trotter-private.vercel.app"],
+    origin: ["https://globe-trotter-private.vercel.app/"],
     methods: ['POST', 'GET', 'HEAD', 'PUT', 'DELETE'],
     credentials: true
 }))
@@ -31,9 +31,9 @@ const swaggerOptions = {
             {
                 url: "http://localhost:5000/",
             },
-            // {
-            //     url: "https://mybank-backend.onrender.com/"
-            // }
+            {
+                url: "https://globe-trotter-private.onrender.com/"
+            }
         ],
     },
     apis: ["./routes/adminRoutes.js", "./routes/authRoutes.js", "./routes/blogRoutes.js", "./routes/confirmation.js",
