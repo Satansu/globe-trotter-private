@@ -38,8 +38,8 @@ exports.createCheckoutSession = async (req, res) => {
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: "http://localhost:3000/success",
-      cancel_url: "http://localhost:3000/failure"
+      success_url: "https://globe-trotter-private.vercel.app/success",
+      cancel_url: "https://globe-trotter-private.vercel.app/failure"
     });
 
     // Send the session ID and booking ID to the frontend
