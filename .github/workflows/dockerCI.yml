@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/wizlance:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/globe-trotter-private:latest
